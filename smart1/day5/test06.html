@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Select Tag</title>
+<style type="text/css">
+	.title {
+		background-color : lightgray;
+		width : 50%;
+		margin: 0px auto;
+		text-align: center;
+		color: white;
+	}
+	.frm {
+		display: inline-block;
+		float: left;
+		width: 80%;
+		text-align: center;
+	}
+	.bfr {
+		position: relative;
+		top: 10px;
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+	<div class="content">
+		<h1 class="title">Select Tag</h1><hr>
+		<form method="GET" action="result.html" name="frm" id="frm" class="frm">
+			<label class="lbl">좋아하는 가수 : </label>
+			<select name="singer" id="singer">
+				<option selected>멤버 선택</option>
+				<option value="jennie">제니</option>
+				<option value="lisa">리사</option>
+				<option value="rose">로제</option>
+				<option value="jisoo">지수</option>
+			</select>
+			<div class="bfr">
+				<input type="button" class="btn" id="btn1" value="home">
+				<input type="reset" class="btn" id="btn2" value="reset">
+				<input type="submit" class="btn" id="btn3" value="submit">
+			</div>			
+		</form>
+	</div>
+</body>
+</html>

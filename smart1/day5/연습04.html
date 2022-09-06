@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.content{
+		width: 50%;
+		margin: 0px auto;
+	}
+	.title {
+		background-color: pink;
+		text-align: center;
+		padding: 15px;
+	}
+	.lbl {
+		display: inlin-block;
+		width: 150px;
+	}	
+	.fr {
+		width: 50%;
+		text-align: center;
+		float: left;
+	}
+	.gfr {
+		position: relative;
+		bottom: 20px;
+	}
+</style>
+</head>
+<body>
+	<div class="content">
+		<h1 class="title">라디오 태그</h1>
+		<form method="GET" action="result.html" name="frm" id="frm">
+			<label class="lbl">성 별 : </label>
+			<div class="gfr">
+				<div class="fr">
+					<input type="radio" name="gen" checked value="M">남 자
+				</div>
+				<div class="fr">
+					<input type="radio" name="gen" value="F">여 자
+				</div>
+			</div>
+			<div class="dfr">
+				<input type="button" class="btn" id="btn1" value="home"> 
+				<input type="submit" class="btn" id="btn2" value="subit"> 
+				<input type="reset" class="btn" id="btn3" value="reset"> 
+			</div>			
+		</form>
+	</div>
+</body>
+</html>

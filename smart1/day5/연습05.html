@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.content {
+		margin: 0px auto;
+		width: 50%;
+		text-align: center;
+	}
+	.title {
+		background-color: dodgerblue;
+		color: white;
+	}
+	.lbl {
+		float: left;
+		width: 20%;
+		text-align: right;
+	}
+	
+	.ck {
+		width: 30%;
+		text-align: right;
+		float: left;
+	}
+	.subj {
+		width: 80%;
+		float: left;
+		text-align: center;
+	}
+	.vtxt {
+		width: 70%;
+		float: left;
+		text-align: left;
+	}
+	
+</style>
+</head>
+<body>
+	<div class="content">
+		<h1 class="title">체크박스</h1>
+		<form method="GET" action="./result.html" name="frm" id="frm" class="frm">
+			<label class="lbl">과 목 : </label>
+			<div class="subj">
+			<div class="ck">
+				<input type="checkbox" name="subj" value="java">
+			</div>			
+			<div class="vtxt">
+			java
+			</div>
+			<div class="ck">
+				<input type="checkbox" name="subj" value="HTML">
+			</div>			
+			<div class="vtxt">
+			HTML
+			</div>
+			<div class="ck">
+				<input type="checkbox" name="subj" value="JavaScript">
+			</div>			
+			<div class="vtxt">
+			JavaScript
+			</div>
+			<div class="ck">
+				<input type="checkbox" name="subj" value="Oracle">
+			</div>			
+			<div class="vtxt">
+			Oracle
+			</div>
+			<div class="ck">
+				<input type="checkbox" name="subj" value="JSP">
+			</div>			
+			<div class="vtxt">
+			JSP
+			</div>
+			<div class="ck">
+				<input type="checkbox" name="subj" value="Spring">
+			</div>			
+			<div class="vtxt">
+			Spring
+			</div>
+			</div>
+			<input type="button" id="btn1" class="btn" value="home">
+			<input type="reset" id="btn2" class="btn" value="reset">
+			<input type="submit" id="btn3" class="btn" value="submit">
+		</form>
+	</div>
+</body>
+</html>
