@@ -1,0 +1,78 @@
+.gry {
+	color:  #808080; 
+}
+#frame {
+	padding: 35px 30px;
+	width: 750px;
+	height: 2000px;
+}
+#head {
+	height: 17px;
+	padding: 0px 0px 17px;
+}
+.h1 {
+	float: left;
+}
+.h2 {
+	font-size:12px;
+	float: right;
+}
+.categ {
+	clear: left;
+	border: 1px solid #dae1e6;
+	width: 744px;
+	height: 49px;
+}
+.cat {
+	display: block;
+	border-right: 1px solid #dae1e6;
+	width: 92px;
+	height: 49px;
+	text-align: center;
+	float: left;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 49px;
+	text-decoration: none;
+}
+.arrowl {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	vertical-align: center;
+	position: absolute;
+    left: 18px;
+	padding-top:8px;
+}
+.arrowr {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	vertical-align: center;
+	position: absolute;
+	right: 365px;
+	padding-top:8px;
+}
+.con {
+	padding: 4px 0px 0px;
+	width: 750px;
+	height: 2000px;
+}
+.topstory {
+	padding: 18px 0px;
+	width: 750px;
+	height: 338px;
+}
+.topinner {
+	float: left;
+	width: 364px;
+	height: 301px;
+	margin: 0px;
+}
+.topinfo {
+	width: 346px;
+	height: 121px;
+	display: block;
+	padding: 16px 18px 0 0;
+	text-decoration: none;
+}
