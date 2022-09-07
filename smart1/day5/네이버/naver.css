@@ -5,6 +5,7 @@
 	padding: 35px 30px;
 	width: 750px;
 	height: 2000px;
+	margin: 0 auto;
 }
 #head {
 	height: 17px;
@@ -34,24 +35,46 @@
 	font-weight: 700;
 	line-height: 49px;
 	text-decoration: none;
+	cursor: pointer;
 }
-.arrowl {
+#arrowl {
 	display: inline-block;
 	width: 35px;
 	height: 35px;
 	vertical-align: center;
 	position: absolute;
-    left: 18px;
+    left: 557px;
 	padding-top:8px;
 }
-.arrowr {
+#arrowr {
 	display: inline-block;
 	width: 35px;
 	height: 35px;
-	vertical-align: center;
+	vertical-align: top;
 	position: absolute;
-	right: 365px;
+	left: 1304px;
 	padding-top:8px;
+}
+#cat1:hover {
+	color: #e65da0;
+}
+#cat2:hover {
+	color: #0147b5;
+}
+#cat3:hover {
+	color: #4a94e1;
+}
+#cat4:hover {
+	color: #66c971;
+}
+#cat5:hover {
+	color: #35ae5e;
+}
+#cat6:hover {
+	color: #5290ff;
+}
+#cat8:hover {
+	color: #c08d31;
 }
 .con {
 	padding: 4px 0px 0px;
@@ -61,7 +84,8 @@
 .topstory {
 	padding: 18px 0px;
 	width: 750px;
-	height: 338px;
+	height: 297px;
+	border-bottom: 1px solid #e4e8eb; 
 }
 .topinner {
 	float: left;
@@ -69,10 +93,93 @@
 	height: 301px;
 	margin: 0px;
 }
+.thumb {
+	display: block;
+	width: 364px;
+	height: 180px;
+}
 .topinfo {
 	width: 346px;
 	height: 121px;
 	display: block;
 	padding: 16px 18px 0 0;
 	text-decoration: none;
+}
+.vtheme, .themecategory {
+	display: block;
+	color: #ebaa00;
+	font-size: 12px;
+}
+.vtitle {
+	display: block;
+	margin-top: 6px;
+	font-size: 13px;
+	color: #202020;
+}
+.desc {
+	max-height: 42px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	font-size: 13px;
+	color: #404040;
+}
+.tag {
+	display: inline-block;
+	max-width: 100%;
+	margin-top: 4px;
+	color: #505050;
+	font-size: 12px;
+}
+.topinner+ .topinner{
+	margin-left: 22px;
+}
+.list {
+	padding-bottom: 18px;
+	width: 750px;
+	height: 678px;
+}
+.lfr {
+	width: 750px;
+	height: 530px;
+	border-bottom: 1px solid #e4e8eb; 
+}
+.item {
+	width: 750px;
+	height: 114px;
+	margin-top:18px;
+}
+.ithumb {
+	width: 170px;
+	height: 114px;
+	float: left;
+	position: relative;
+	margin-right: 21px;
+}
+.iinfo {
+	display: block;
+	padding: 4px 47px 0 0;
+	text-decoration: none;
+}
+.ititle {
+	margin-top: 2px;
+	display: block;
+	font-size: 13px;
+	color: #202020;
+	
+}
+.box {
+	display: inline-block;
+	max-width: 100%;
+	position: relative;
+	top: 4px;
+}
+.date {
+	float: right;
+	color: grey;
+	font-size: 12px;
+}
+.src {
+	float: left;
+	color: #505050;
+	font-size: 12px;
 }
