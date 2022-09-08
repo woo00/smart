@@ -4,7 +4,7 @@
 #frame {
 	padding: 35px 30px;
 	width: 750px;
-	height: 2000px;
+	height: 530px;
 	margin: 0 auto;
 }
 #head {
@@ -41,18 +41,18 @@
 	display: inline-block;
 	width: 35px;
 	height: 35px;
-	vertical-align: center;
-	position: absolute;
-    left: 557px;
+	position: relative;
+    left: -20px;
+    bottom: 52px;
 	padding-top:8px;
 }
 #arrowr {
 	display: inline-block;
 	width: 35px;
 	height: 35px;
-	vertical-align: top;
-	position: absolute;
-	left: 1304px;
+	position: relative;
+    left: 687px;
+    bottom: 52px;
 	padding-top:8px;
 }
 #cat1:hover {
@@ -79,7 +79,7 @@
 .con {
 	padding: 4px 0px 0px;
 	width: 750px;
-	height: 2000px;
+	height: 530px;
 }
 .topstory {
 	padding: 18px 0px;
@@ -116,6 +116,12 @@
 	font-size: 13px;
 	color: #202020;
 }
+.vtitle:hover {
+	text-decoration: underline;
+}
+.ititle:hover {
+	text-decoration: underline;
+}
 .desc {
 	max-height: 42px;
 	margin-top: 5px;
@@ -136,7 +142,7 @@
 .list {
 	padding-bottom: 18px;
 	width: 750px;
-	height: 678px;
+	height: 530px;
 }
 .lfr {
 	width: 750px;
